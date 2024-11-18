@@ -12,3 +12,9 @@ class Solution {
     return []; 
   }
 }
+
+void main(){
+    Solution sl=Solution();
+    final result=sl.twoSum([1,2,3,4],5);
+    print("$result index of array: [1,2,3,4] can make sum equals 5");
+}
